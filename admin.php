@@ -222,7 +222,7 @@ add_action('admin_notices', function () {
 		<?php
 		return;
 	}
-    /* @RRZE
+
 	$nid = 'rollback-cf7-'.WPCF7CF_CF7_MAX_VERSION;
 	if ( version_compare( WPCF7CF_CF7_MAX_VERSION, WPCF7_VERSION, '<' ) && empty($settings['notice_dismissed_'.$nid]) && current_user_can('update_plugins') ) {
 		?>
@@ -247,6 +247,5 @@ add_action('admin_notices', function () {
 			</div>
 		<?php
 	}
-    */
 
 });
