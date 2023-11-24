@@ -140,7 +140,7 @@ function wpcf7cf_options_page() {
 
             wpcf7cf_input_fields_wrapper_end();
             submit_button();
-
+            /* @RRZE
             if (!WPCF7CF_IS_PRO) {
             ?>
             <h3><?php _e( 'Conditional Fields  PRO', 'cf7-conditional-fields'); ?></h3>
@@ -157,7 +157,7 @@ function wpcf7cf_options_page() {
             <?php
             }
             do_action('wpcf7cf_after_animation_settings');
-
+            */
             echo '<h3>' . __( 'Advanced Settings', 'cf7-conditional-fields') . '</h3>';
             wpcf7cf_input_fields_wrapper_start();
 
