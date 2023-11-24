@@ -156,8 +156,9 @@ function wpcf7cf_options_page() {
             <p><a target="_blank" class="button button-primary" href="https://conditional-fields-cf7.bdwm.be/contact-form-7-conditional-fields-pro/"><?php _e( 'Get PRO', 'cf7-conditional-fields'); ?></a></p>
             <?php
             }
-            do_action('wpcf7cf_after_animation_settings');
             */
+            do_action('wpcf7cf_after_animation_settings');
+
             echo '<h3>' . __( 'Advanced Settings', 'cf7-conditional-fields') . '</h3>';
             wpcf7cf_input_fields_wrapper_start();
 
